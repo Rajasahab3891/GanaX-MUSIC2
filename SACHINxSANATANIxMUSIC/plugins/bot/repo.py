@@ -7,14 +7,11 @@ import httpx
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 start_txt = """
-〄 ᴡᴇʟᴄᴏᴍᴇ ғᴏʀ sᴀᴄʜɪɴ sᴀɴᴀᴛᴀɴɪ ʀᴇᴘᴏs 〄
+⌾ ᴡᴇʟᴄᴏᴍᴇ ғᴏʀ sᴀᴄʜɪɴ ʀᴇᴘᴏs ⌾
  
-࿃ ᴍᴇʀᴀ ʟᴀɴᴅ ʟᴇ ʟᴇ
+◎ ʙʜᴀɢ ʙʜᴏsᴅɪᴋᴇ
  
-࿃ ᴛᴇʀɪ ᴍᴀ ᴋɪ ᴄʜᴜᴛ ʀᴀɴᴅɪ ᴋᴇ
- 
-࿃ ʀᴜɴ 24x7 ʟᴀɢ ғʀᴇᴇ ᴡɪᴛʜᴏᴜᴛ sᴛᴏᴘ
- 
+◎ ʀᴇᴘᴏ ᴛᴏ ɴᴀ ᴅᴜɴɢᴀ
 """
 
 
@@ -24,24 +21,24 @@ start_txt = """
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("ＡＤＤ ＭＥ ＢＡＢＹ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+          InlineKeyboardButton("✙ ᴀᴅᴅ ᴍᴇ ✙", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-          InlineKeyboardButton("ＨＥＬＰ", url="https://t.me/SANATANI_IS_HERE"),
-          InlineKeyboardButton("ＳＡＣＨＩＮ", url="https://t.me/V_VIP_OWNER"),
+          InlineKeyboardButton("• ʜᴇʟᴘ •", url="https://t.me/Il_4ST_FIGHTER_lI"),
+          InlineKeyboardButton("• ᴏᴡɴᴇʀ •", url="https://t.me/V_VIP_OWNER"),
           ],
                [
-                InlineKeyboardButton("ＳＡＮＡＴＡＮＩ ＮＥＴＷＯＲＫ", url=f"https://t.me/SANATANI_IS_HERE"),
+                InlineKeyboardButton("• sᴀɴᴀᴛᴀɴɪ ɴᴇᴛᴡᴏʀᴋ •", url=f"https://t.me/ALL_SANATANI_BOT"),
 ],
 [
-InlineKeyboardButton("ＯＦＦＩＣＩＡＬ ＢＯＴ", url=f"https://t.me/HIMANSHI_MUSIC_BOT"),
+InlineKeyboardButton("• ᴏғғɪᴄɪᴀʟ ʙᴏᴛ •", url=f"https://t.me/HIMANSHI_MUSIC_BOT"),
 
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/9131bdd30ab9c76349f25.jpg",
+        photo="https://telegra.ph/file/256b87e379dfd405b957d.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
