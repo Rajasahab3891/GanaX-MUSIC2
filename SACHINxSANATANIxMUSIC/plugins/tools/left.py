@@ -52,7 +52,7 @@ async def get_userinfo_img(
 
 # --------------------------------------------------------------------------------- #
 
-bg_path = "SACHINxSANATANIxMUSIC/assets/userinfo.png"
+bg_path = "SACHINxSANATANIxMUSIC/assets/leftuserinfo.png"
 font_path = "SACHINxSANATANIxMUSIC/assets/hiroko.ttf"
 
 # --------------------------------------------------------------------------------- #
@@ -92,8 +92,8 @@ async def member_has_left(client: app, member: ChatMemberUpdated):
                 profile_path=photo,
             )
         
-            caption = f"**#𝗡𝗘𝗪_𝗠𝗘𝗠𝗕𝗘𝗥_𝗟𝗘𝗙𝗧**\n\n**๏** {user.mention} **ʜᴀs ʟᴇғᴛ ᴛʜɪs ɢʀᴏᴜᴘ**\n**๏ sᴇᴇ ʏᴏᴜ sᴏᴏɴ ᴀɢᴀɪɴ..!**"
-            button_text = "⛩️ ᴠɪᴇᴡ ᴜsᴇʀ ⛩️"
+            caption = f"**❖ 𝖭𝖤𝖶 𝖴𝖲𝖤𝖱 𝖫𝖤𝖥𝖳**\n\n**❍** {user.mention} \n****❍ ʟᴇғᴛ ᴛʜɪs ɢʀᴏᴜᴘ**\n**❍ sᴇᴇ ʏᴏᴜ sᴏᴏɴ ᴀɢᴀɪɴ..!**"
+            button_text = "⩥ ᴠɪᴇᴡ ᴜsᴇʀ ⩤"
 
             # Generate a deep link to open the user's profile
             deep_link = f"tg://openmessage?user_id={user.id}"
