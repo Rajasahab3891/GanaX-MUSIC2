@@ -18,9 +18,9 @@ OWNER_USERNAME = getenv("OWNER_USERNAME","V_VIP_OWNER")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "HIMANSHI_MUSIC_BOT")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "HIMANSHU")
+BOT_NAME = getenv("BOT_NAME" , "HIMANSHI")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
+ASSUSERNAME = getenv("ASSUSERNAME" , "II_HIMANSHI_II")
 # ---------------------------------------------------------
 
 
@@ -68,7 +68,7 @@ GIT_TOKEN = getenv(
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/All_sanatani_bot")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+_Bn9pPn9azVhMDg1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+cW07X2RM_IBmYTI1")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
